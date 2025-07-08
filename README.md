@@ -3,7 +3,7 @@
 **Authors**: Fernando Rodríguez Avellaneda, Jorge Mateu and Paula Moraga.  
 **Paper**: *Estimating velocities of infectious disease spread through spatio-temporal log-Gaussian Cox point processes* ([arXiv:2409.05036](https://arxiv.org/abs/2409.05036))
 
-This repository provides code supporting the methods and results in the paper above, focusing on estimating velocity fields from spatio-temporal point process data.
+This repository provides code supporting the methods and results presented in the paper above, with a focus on estimating velocity fields from spatio-temporal point process data.
 
 ---
 
