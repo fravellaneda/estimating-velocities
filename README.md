@@ -12,14 +12,14 @@ This repository provides code supporting the methods and results presented in th
 ```
 estimating-velocities/
 ├── compute_velocities.R   # Main script for estimating velocity fields
-├── create_dataset.R       # Script to simulate or load data
+├── create_dataset.R       # Script to simulate the dataset
 ├── modeling.R             # LGCP Spatio temporal modeling using R-INLA
 ├── params.R               # Parameter definitions for reuse across scripts
 ├── utilis.R               # Utility functions
 ├── data/                  # Input data
-│   ├── dp.csv             # Population or spatial grid data
-│   ├── obs.csv            # Spatio-temporal event data
-│   └── lambda1.Rdata      # Precomputed intensity surface
+│   ├── dp.csv             # Spatial grid data locations
+│   ├── obs.csv            # Spatio-temporal simulated data
+│   └── lambda1.Rdata      # Precomputed intensity function
 ├── images/                # Output plots
 │   ├── simulation.pdf
 │   ├── intensity.pdf
@@ -53,7 +53,7 @@ estimating-velocities/
 After running the main scripts, output visualizations can be found in the `images/` folder:
 
 - `simulation.pdf`: simulated data points  
-- `intensity.pdf`: fitted intensity surface  
+- `intensity.pdf`: fitted intensity function 
 - `velocity.pdf`: estimated velocity 
 
 ---
