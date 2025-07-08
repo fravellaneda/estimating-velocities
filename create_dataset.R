@@ -10,7 +10,7 @@ source("utilis.R") # Utilis functions
 
 
 # Create a realization of the spatio temporal point pattern
-set.seed(17)
+set.seed(97)
 sims <- list()
 for (i in 0:(max.t-1)){
   point <- h_t*i+h_t/2
