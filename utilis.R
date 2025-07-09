@@ -67,8 +67,8 @@ true.values <- function(dp,time,per){
   vel <- abs(dert)/norm_grad
   a1 <- data.frame(x=dp.new[,1],y=dp.new[,2])
   
-  h.x <- unique(a1$x)[2]-unique(a1$x)[1]
-  h.y <- unique(a1$y)[2]-unique(a1$y)[1]
+  h.x <- abs(unique(a1$x)[2]-unique(a1$x)[1])
+  h.y <- abs(unique(a1$y)[2]-unique(a1$y)[1])
   
   a1[,"inten"] <- inten
   a1[,"difx_pre"] <- derx
